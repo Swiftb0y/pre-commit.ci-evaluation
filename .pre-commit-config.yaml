@@ -1,8 +1,9 @@
 minimum_pre_commit_version: 2.21.0
-#default_language_version:
-#  rust: 1.64.0
+default_language_version:
+  rust: 1.64.0
 repos:
   - repo: https://github.com/qarmin/qml_formatter.git
     rev: 0.2.0
     hooks:
       - id: qml_formatter
+        language_version: 1.64.0
