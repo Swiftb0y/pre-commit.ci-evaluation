@@ -1,0 +1,17 @@
+QLabel {
+    color: red;
+    font-size: 18px;
+}
+
+QPushButton {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+QLineEdit {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
